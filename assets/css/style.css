@@ -1,0 +1,38 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #19a1ad;
+    height: calc(100vh -1px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    height: 375px;
+    width: 325px;
+    background-color:white;
+    border-radius: 10px;
+
+}
+
+.div1 {
+    background-color: red;
+    height: 140px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.div2 {
+    background-color: green;
+    height: 145px;
+}
+.div3 {
+    background-color: yellow;
+}
