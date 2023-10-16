@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: var(--Darkcyan);
+    background: url('../images/bg-pattern-top.svg') top center, var(--Darkcyan), url('../images/bg-pattern-bottom.svg') bottom center;
     font-size: 18PX;
     font-family: 'Kumbh Sans', sans-serif;
     height: calc(100vh - 1px);
@@ -37,11 +37,12 @@ p {
     width: 325px;
     background-color:white;
     border-radius: 10px;
+    margin-bottom: 20px;
 
 }
 
 .div1 {
-    background-color: darkblue;
+    background-image: url("../images/bg-pattern-card.svg");
     height: 145px;
     width: 100%;
     border-top-right-radius: 10px;
