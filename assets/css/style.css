@@ -13,7 +13,7 @@
 }
 
 body {
-    background: url('../images/bg-pattern-top.svg') top center, var(--Darkcyan), url('../images/bg-pattern-bottom.svg') bottom center;
+    background: url('../images/bg-pattern-top.svg')bottom , url('../images/bg-pattern-bottom.svg')bottom right, var(--Darkcyan);
     font-size: 18PX;
     font-family: 'Kumbh Sans', sans-serif;
     height: calc(100vh - 1px);
