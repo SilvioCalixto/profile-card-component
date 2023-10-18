@@ -13,7 +13,7 @@
 }
 
 body {
-    background: url('../images/bg-pattern-top.svg')bottom , url('../images/bg-pattern-bottom.svg')bottom right, var(--Darkcyan);
+    background: url('../images/bg-pattern-top.svg') , url('../images/bg-pattern-bottom.svg') , var(--Darkcyan);
     font-size: 18PX;
     font-family: 'Kumbh Sans', sans-serif;
     height: calc(100vh - 1px);
@@ -23,8 +23,9 @@ body {
     flex-direction: column;
 }
 
-h1 {
-    color: var(--Verydarkdesaturatedblue)
+h3 {
+    color: var(--Verydarkdesaturatedblue);
+    margin-right: 10px;
 }
 
 p {
@@ -37,7 +38,6 @@ p {
     width: 325px;
     background-color:white;
     border-radius: 10px;
-    margin-bottom: 20px;
 
 }
 
@@ -50,7 +50,7 @@ p {
 }
 .div2 {
     height: 150px;
-    border-bottom: 1px solid var(--Darkgrayishblue);
+    border-bottom: 1px solid var(--Darkgray);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,6 +60,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
+}
+
+.div3 p {
+    font-size: 14px;
 }
 
 .container img {
@@ -70,4 +75,11 @@ p {
     right: 116px;
     border-radius: 100%;
     padding: 5px;
+}
+
+.attribution { font-size: 11px; text-align: center; 
+    margin-top: 60px;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); 
 }
