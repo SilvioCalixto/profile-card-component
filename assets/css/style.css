@@ -51,9 +51,17 @@ p {
 .div2 {
     height: 150px;
     border-bottom: 1px solid var(--Darkgray);
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction:column;
+
+}
+
+.div2 p {
+    white-space: pre-line;
+    font-size: 14px;
 }
 .div3 {
     height: 80px;
